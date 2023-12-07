@@ -174,7 +174,6 @@ public class MainMenu extends JFrame {
 			public void mouseClicked(MouseEvent e) {
                         HouseReport relatorio = new HouseReport(fk_house);
                         relatorio.setVisible(true);
-                        dispose();
                     }
 		});
 		
@@ -226,7 +225,7 @@ public class MainMenu extends JFrame {
 	            public void mousePressed(java.awt.event.MouseEvent evt) {
                     URI uri = null;
 					try {
-						uri = new URI("https://fatecspgov-my.sharepoint.com/personal/gabriel_fonseca14_fatec_sp_gov_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fgabriel_fonseca14_fatec_sp_gov_br%2FDocuments%2FCollege%2F2°%20Semestre%2FAcelera%2FDocumentação&ct=1701145442306&or=Teams-HL&ga=1&LOF=1");
+						uri = new URI("https://fatecspgov-my.sharepoint.com/personal/gabriel_fonseca14_fatec_sp_gov_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fgabriel_fonseca14_fatec_sp_gov_br%2FDocuments%2FCollege%2F2Â°%20Semestre%2FAcelera%2FDocumentaÃ§Ã£o&ct=1701145442306&or=Teams-HL&ga=1&LOF=1");
 					} catch (URISyntaxException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
